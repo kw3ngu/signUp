@@ -7,40 +7,52 @@
     </head>
     <body>
         <div class="left">
-            <div>
-                <div class="logo">
-                    <img src="odin-lined.png" alt="odin logo">
+            <div class="logo">
+                   <!-- <img src="odin-lined.png" alt="odin logo">-->
                     <p>ODIN</p>
-                </div>
             </div>
             <p>Photo by <span>Hailie West</span> on <span>Unsplash</span></p>
         </div>
-        <div class="content">
+        <div class="right">
             <div class="intro">
-                <p>This is not you a real online service! You know you need something 
-                    like this in your life to help you your deepest dreams.
-                    Sign up <em>now</em> to get started.
+                <p>
+This is not you a real online service! You know you need something 
+like this in your life to help you your deepest dreams.
+Sign up <em>now</em> to get started.
+
+You <em>know</em> you want to
                 </p>
-                <p>You <em>know</em> you want to</p>
             </div>
             <div class="form">
-                <p>Let's do this</p>
+                <p>Let's do this!</p>
                 <form action="#">
-                    <div>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name">
-                        <label for="email">EMAIL ADDRESS</label>
-                        <input type="email" id="email" name="email">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                    <div class="column">
+                        <div class="row">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">    
+                        </div>
+                        <div class="row">
+                            <label for="email">EMAIL ADDRESS</label>
+                            <input type="email" id="email" name="email">    
+                        </div>
+                        <div class="row">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">    
+                        </div>
                     </div>
-                    <div>
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name">
-                        <label for="number">PHONE NUMBER</label>
-                        <input type="number" id="number" name="number">
-                        <label for="password">CONFIRM PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                    <div class="column">
+                        <div class="row">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">    
+                        </div>
+                        <div class="row">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="text" id="number" name="number" maxlength="10">    
+                        </div>
+                        <div class="row">
+                            <label for="conpassword">CONFIRM PASSWORD</label>
+                            <input type="conpassword" id="conpassword" name="conpassword">    
+                        </div>
                     </div>
                 </form>
             </div>

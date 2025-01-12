@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+@font-face{
+    font-family: "roboto";
+    src: url(roboto.ttf);
+}
+p,label,div{
+    margin: 0;
+    padding: 0;
+}
+body,.left,.right,.logo{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    display: flex;
+}
+body{
+    margin: auto;
+    height: 100vh;
+    width: 90vw;
+}
+.logo+p{
+    font-size: small;
+}
+span{
+    text-decoration: underline;
+}
+.left{
+    height: 100vh;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(hailie-west.jpg);
+    background-size: cover;
+}
+.right{
+    flex-direction: column;
+    width: 100%;
+}
+.logo{
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Norse-Bold";
+    font-size: 70px;
+    background-color: black;
+    opacity: 0.7;
+    height: 150px;
+    width: 400px;
+}
+.intro{
+    white-space: pre;
+    padding-top: 40px;
+    padding-left: 32px;
+    background-color: rgb(245, 245, 245);
+    font-weight: 600;
+}
+.form{
+    padding: 32px;
+    box-shadow: 0 2px 10px rgb(219, 219, 219);
+}
+form{
+    display: flex;
+    gap: 48px;
+}
+form>p{
+    font-weight: 600;
+}
+input::selection{
+    color: blue;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.outro{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+}
+button{
+    font-family: "roboto";
+    font-weight: bold;
+    height: 32px;
+    width: 128px;
+    color: white;
+    background-color: #596D48;
+    border-radius: 4px;
+    border-style: none;
+}
+a{
+    color: #596D48;
+    text-decoration: none;
+}
+input{
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 4px;
+    height: 20px;
+}
+input:focus{
+    border: 2px solid rgb(26, 1, 247);
+    box-shadow: 0 2px 4px blue;
+}
